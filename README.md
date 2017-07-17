@@ -15,6 +15,24 @@ Watsonで作ったチャットボットをSlackから実行します
 
 https://riversun.github.io/wcs/org.riversun.WcsContextTestJa.zip
 
+## Eclipseへのインポートと実行
+
+### Eclipseへのimport
+
+1.Select File>Import>Git - Projects from Git  
+2.Clone URI  
+3.set clone URI to https://github.com/riversun/watson-java-slackbot-ja.git
+
+4.適宜[NEXT]を押していく  
+5."Import as general project"をチェックして、"finish"  を押す
+
+
+### Mavenプロジェクトとして読み込む
+
+1.プロジェクト上で、右クリック  
+2.Configure>Convert to Maven project  
+3.(これでmaven projectとしてEclipseに読み込まれます)  
+
 # ソースコード
 
 ```java
